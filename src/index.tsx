@@ -385,18 +385,10 @@ export default class InfiniteScroll extends Component<Props, State> {
       ...this.props.style,
     } as CSSProperties;
 
-    // because heighted infiniteScroll visualy breaks
-    // on drag down as overflow becomes visible
-    const outerDivStyle =
-      this.props.pullDownToRefresh && this.props.height
-        ? { overflow: 'auto' }
-        : {};
-
     return (
       <CType
-        outerDivStyle={!this.props.tbody ? outerDivStyle : undefined}
         setScroll={this.setScroll}
-        style={style}
+        style={{ ...style, ...this.props.style }}
         className={this.props.className}
       >
         {this.childContent()}
