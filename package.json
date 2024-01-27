@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kougen/react-infinite-scroll-component.git"
+    "url": "git+https://github.com/kougen/react-modular-infinite-scroll.git"
   },
   "keywords": [
     "react",
@@ -35,9 +35,9 @@
   "author": "Kougen <josh.hegedus@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kougen/react-infinite-scroll-component/issues"
+    "url": "https://github.com/kougen/react-modular-infinite-scroll/issues"
   },
-  "homepage": "https://github.com/kougen/react-infinite-scroll-component#readme",
+  "homepage": "https://github.com/kougen/react-modular-infinite-scroll#readme",
   "peerDependencies": {
     "react": ">=16.0.0"
   },
